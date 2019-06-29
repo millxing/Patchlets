@@ -28,17 +28,4 @@ These python scripts can be run from any python environment, but standalone .exe
 
 - Executables: I have standalone .exe versions available and will add them to this repository shortly.
 
-- Know bugs: Crashes when two patchlets with Core Audio are combined.
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Known bugs: Crashes when two patchlets with Core Audio are combined.
