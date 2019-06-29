@@ -29,3 +29,5 @@ These python scripts can be run from any python environment, but standalone .exe
 - Executables: I have standalone .exe versions available and will add them to this repository shortly.
 
 - Known bugs: Crashes when two patchlets with Core Audio are combined.
+
+- Partnership: If anyone wants to help with any of this, just let me know.
