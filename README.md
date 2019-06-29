@@ -8,9 +8,9 @@ The idea of **Patchlets** is to organize patches in rows, each row corresponding
 
 Currently Patchlets is implemented as two different python scripts:<br/>
 
-**extractPatchlets** takes a v1-compatible .vcv patch and splits it into multiple *patchlets*.<br/>
+**extractPatchlets.py** takes a v1-compatible .vcv patch and splits it into multiple *patchlets*.<br/>
 
-**combinePatchlets** takes multiple v1-compatible patchlets and combines them to make a new patch. <br/>
+**combinePatchlets.py** takes multiple v1-compatible patchlets and combines them to make a new patch. <br/>
 
 These python scripts can be run from any python environment but standalone .exe files can easily be created with pyinstaller.<br/>
 
