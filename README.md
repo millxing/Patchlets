@@ -20,11 +20,15 @@ These python scripts can be run from any python environment, but standalone .exe
 
 - Clean up the code: I'm not an experienced python programmer. This is my first python project and I've been learning as I worked on it. The code is well-commented but does not follow standard python norms. The code can be made much more efficient, but it seems to work fine for these tasks. I do plan to improve the quality of the code.
 
+- Testing: I've tested these scripts a bunch of times, but I'm sure I've missed some 
+
 - Add more tools: The logical one to add next would be **appendPatchlet**, so you could just add a patchlet to the bottom of an existing patch. Currently you can do the same thing by splitting the existing patch into patchlets with **extractPatchlets** and then recombining the patchlets and adding the new one with **combinePatchlets**.
 
 - GUI: I've been playing with making a gui and a file browser dialog using Tkinter.
 
 - Executables: I have standalone .exe versions available and will add them to this repository shortly.
+
+- Know bugs: Crashes when two patchlets with Core Audio are combined.
 
 
 
