@@ -2,9 +2,11 @@
 
 ## Tools for extracting and manipulating patchlets from VCV Rack patches.
 
-When using VCV Rack, I often wish that there was a way to copy some large combination of modules from another patch into the current patch I'm working on. Maybe I made a complicated LFO/sample&hold/quantized/transposed melody generator in another patch, and I'd like to use that in my current patch but don't want to bother building it again from scratch. Or maybe I have a complex, multi-module synth voice that I'd like to duplicate four times (assuming polyphony is not an option in this case).<br/>
+When using VCV Rack, I have sometimes wished that there was a way to copy some large combination of modules from another patch into the current patch I'm working on. Maybe I made a complicated LFO/sample&hold/quantized/transposed melody generator in another patch, and I'd like to use that in my current patch but don't want to bother building it again from scratch. Or maybe I have a complex, multi-module synth voice that I'd like to duplicate four times (assuming polyphony is not an option in this case).<br/>
 
 The idea of **Patchlets** is to organize patches in rows, each row corresponding to some collection of modules and connected cables that could be repurposed in some other patch. A collection of patchlets can be like a toolbox of go-to solutions that can be combined in different ways to form new patches.<br/>
+
+I've found these tools helpful for my Rack workflow and I hope some others may also benefit from them.
 
 Currently Patchlets is implemented as two different python scripts:<br/>
 
@@ -20,7 +22,7 @@ These python scripts can be run from any python environment, but standalone .exe
 
 - Clean up the code: I'm not an experienced python programmer. This is my first python project and I've been learning as I worked on it. The code is well-commented but does not follow standard python norms. The code can be made much more efficient, but it seems to work fine for these tasks. I do plan to improve the quality of the code.
 
-- Testing: I've tested these scripts a bunch of times, but I'm sure I've missed some 
+- Testing: I've tested these scripts a bunch of times, but I'm sure I've missed some combination of conditions that could make these scripts fail.
 
 - Add more tools: The logical one to add next would be **appendPatchlet**, so you could just add a patchlet to the bottom of an existing patch. Currently you can do the same thing by splitting the existing patch into patchlets with **extractPatchlets** and then recombining the patchlets and adding the new one with **combinePatchlets**.
 
