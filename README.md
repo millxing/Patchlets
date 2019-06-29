@@ -12,9 +12,9 @@ Currently Patchlets is implemented as two different python scripts:<br/>
 
 **combinePatchlets.py** takes multiple v1-compatible patchlets and combines them to make a new patch. <br/>
 
-These python scripts can be run from any python environment but standalone .exe files can easily be created with pyinstaller.<br/>
+These python scripts can be run from any python environment, but standalone .exe files can easily be created with pyinstaller.<br/>
 
-Read the [Instructions](https://github.com/millxing/Patchlets/blob/master/Instructions.md) before using.<br/>
+**Read the [Instructions](https://github.com/millxing/Patchlets/blob/master/Instructions.md) before using.**<br/>
 
 ### Plans for this project
 
